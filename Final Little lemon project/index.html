@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Little Lemon Restaurant</h1>
+        <input type="text" placeholder="Search items..." id="searchInput">
+        <button onclick="filterItems('main')">Main Dishes</button>
+        <button onclick="filterItems('dessert')">Desserts</button>
+        <button onclick="filterItems('drink')">Drinks</button>
+        <div id="items"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
